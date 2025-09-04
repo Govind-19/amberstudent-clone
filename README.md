@@ -1,69 +1,87 @@
-# React + TypeScript + Vite
+# AmberStudent Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a comprehensive front-end clone of the AmberStudent website, built using React and TypeScript. It fulfills an assignment focused on design replication, authentication, state management, and performance optimization, resulting in a fully functional and deployable web application.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[https://amberstudent-clone-demo.vercel.app/](https://amberstudent-clone-demo.vercel.app/) 
+*(Replace this with your actual Vercel deployment link)*
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+-   **Responsive Design**: Faithfully replicates the AmberStudent UI for various screen sizes, from mobile to desktop.
+-   **User Authentication**: Complete login and signup flow with persistent sessions managed via Local Storage.
+-   **Dynamic Search**: A functional search bar on the homepage to find properties by city or name.
+-   **Property Details Page**: Dynamic routes to display detailed information for each individual property.
+-   **Rich Homepage**: Includes multiple sections like "Why Choose Us," "Featured Cities," and "Testimonials" to create a complete user experience.
+-   **State Management**: Global authentication state is managed efficiently across the application using React's Context API.
+-   **Performance Optimized**: Pages are lazy-loaded using `React.lazy` and `<Suspense>` to ensure faster initial load times and better performance.
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🛠️ Technologies & Tools
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+| Category      | Technology                               |
+| ------------- | ---------------------------------------- |
+| **Framework** | `React.js`                               |
+| **Language** | `TypeScript`                             |
+| **Styling** | `styled-components`                      |
+| **Routing** | `react-router-dom`                       |
+| **Build Tool**| `Vite`                                   |
+| **Icons** | `lucide-react`                           |
+| **Deployment**| `Vercel`                                 |
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 📸 Screenshots
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+*Homepage*
+![Homepage Screenshot](https://i.imgur.com/example-homepage.png)
+*(Suggestion: Replace with a real screenshot of your homepage)*
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+*Search Results Page*
+![Search Results Screenshot](https://i.imgur.com/example-search.png)
+*(Suggestion: Replace with a real screenshot of your search results)*
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+*Property Detail Page*
+![Property Detail Screenshot](https://i.imgur.com/example-property.png)
+*(Suggestion: Replace with a real screenshot of a property page)*
+
+
+## ⚙️ Local Setup and Installation
+
+To run this project on your local machine, follow these steps:
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/your-username/amberstudent-clone.git](https://github.com/your-username/amberstudent-clone.git)
+    ```
+
+2.  **Navigate to the project directory:**
+    ```bash
+    cd amberstudent-clone
+    ```
+
+3.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+
+4.  **Start the development server:**
+    ```bash
+    npm run dev
+    ```
+    The application will be available at `http://localhost:5173` (or another port if 5173 is busy).
+
+
+## 📋 Assignment Checklist
+
+This project successfully fulfills all the requirements of the original assignment.
+
+| Requirement                          | Status        |
+| ------------------------------------ | ------------- |
+| **1. Design Replication** | ✅ Completed  |
+| &nbsp;&nbsp;&nbsp; - Responsive Design | ✅ Completed  |
+| &nbsp;&nbsp;&nbsp; - React Router Navigation | ✅ Completed  |
+| **2. Authentication (Local Storage)**| ✅ Completed  |
+| **3. State Management** | ✅ Completed  |
+| &nbsp;&nbsp;&nbsp; - Use State Provider (Context API) | ✅ Completed  |
+| &nbsp;&nbsp;&nbsp; - Lazy Loading / Code Splitting | ✅ Completed  |
+| **4. Documentation (README)** | ✅ Completed  |
+| **5. No Comments & Use TypeScript** | ✅ Completed  |
