@@ -29,21 +29,6 @@ This project is a comprehensive front-end clone of the AmberStudent website, bui
 | **Icons** | `lucide-react`                           |
 | **Deployment**| `Vercel`                                 |
 
-## 📸 Screenshots
-
-*Homepage*
-![Homepage Screenshot](https://i.imgur.com/example-homepage.png)
-*(Suggestion: Replace with a real screenshot of your homepage)*
-
-*Search Results Page*
-![Search Results Screenshot](https://i.imgur.com/example-search.png)
-*(Suggestion: Replace with a real screenshot of your search results)*
-
-*Property Detail Page*
-![Property Detail Screenshot](https://i.imgur.com/example-property.png)
-*(Suggestion: Replace with a real screenshot of a property page)*
-
-
 ## ⚙️ Local Setup and Installation
 
 To run this project on your local machine, follow these steps:
