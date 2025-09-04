@@ -2,6 +2,10 @@
 
 This project is a comprehensive front-end clone of the AmberStudent website, built using React and TypeScript. It fulfills an assignment focused on design replication, authentication, state management, and performance optimization, resulting in a fully functional and deployable web application.
 
+## 🚀 Live Demo
+
+[https://amberstudent-clone-vercel.app/](https://amberstudent-clone-3yx2qgqqv-govinds-projects-def7c5ae.vercel.app/)
+
 ## ✨ Features
 
 -   **Responsive Design**: Faithfully replicates the AmberStudent UI for various screen sizes, from mobile to desktop.
